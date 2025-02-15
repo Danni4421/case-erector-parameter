@@ -19,6 +19,7 @@ export const getOutfeedConveyors = async (): Promise<OutfeedConveyor[]> => {
         updated_at: Date.now(),
       },
     ];
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
   } catch (error) {
     return [];
   }

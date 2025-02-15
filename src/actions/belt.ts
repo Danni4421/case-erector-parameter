@@ -27,6 +27,7 @@ export const getBelts = async (): Promise<Belt[]> => {
         updated_at: Date.now(),
       },
     ];
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
   } catch (error) {
     return [];
   }

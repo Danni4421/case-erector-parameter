@@ -1,13 +1,4 @@
-import {
-  Activity,
-  ArrowRightLeft,
-  Beaker,
-  Box,
-  DoorOpen,
-  Inbox,
-  Timer,
-  Wrench,
-} from "lucide-react";
+import { ArrowRightLeft, Box, Inbox, Wrench } from "lucide-react";
 
 import {
   Sidebar,

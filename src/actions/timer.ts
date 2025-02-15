@@ -23,6 +23,7 @@ export const getTimers = async (): Promise<Timer[]> => {
         created_at: Date.now(),
       },
     ];
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
   } catch (error) {
     return [];
   }
