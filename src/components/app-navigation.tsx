@@ -17,32 +17,32 @@ import {
 const components: { title: string; href: string; description: string }[] = [
   {
     title: "Carton",
-    href: "/carton",
+    href: "/hmi/carton",
     description: "Carton parameters for the case erector.",
   },
   {
     title: "Transfer",
-    href: "/transfer",
+    href: "/hmi/transfer",
     description: "Transfer parameters for the case erector.",
   },
   {
     title: "Opening",
-    href: "/opening",
+    href: "/hmi/opening",
     description: "Opening parameters for the case erector.",
   },
   {
     title: "Belts",
-    href: "/belts",
+    href: "/hmi/belt",
     description: "Belt parameters for the case erector.",
   },
   {
     title: "Timers",
-    href: "/timers",
+    href: "/hmi/timer",
     description: "Timer parameters for the case erector.",
   },
   {
     title: "Outfeed Conveyor",
-    href: "/outfeed-conveyor",
+    href: "/hmi/outfeed-conveyor",
     description: "Outfeed conveyor parameters for the case erector.",
   },
 ];
@@ -71,13 +71,13 @@ export function AppNavigation() {
                   </a>
                 </NavigationMenuLink>
               </li>
-              <ListItem href="/docs" title="Introduction">
+              <ListItem href="/" title="Introduction">
                 Learn about the purpose of the Case Erector Parameter.
               </ListItem>
-              <ListItem href="/docs/installation" title="Mechanics">
+              <ListItem href="/mechanics" title="Mechanics">
                 Mechanical components for the case erector.
               </ListItem>
-              <ListItem href="/docs/primitives/typography" title="HMI">
+              <ListItem href="/hmi/carton" title="HMI">
                 Human Machine Interface components.
               </ListItem>
             </ul>

@@ -22,44 +22,24 @@ import {
 
 const items = [
   {
-    title: "Mechanic",
-    url: "/mechanic",
+    title: "FL 1",
+    url: "/",
     icon: Wrench,
   },
   {
-    title: "HMI",
-    url: "/hmi",
+    title: "FL 2",
+    url: "/",
     icon: Inbox,
   },
   {
-    title: "Carton",
-    url: "/carton",
+    title: "FL 3",
+    url: "/",
     icon: Box,
   },
   {
-    title: "Transfer",
-    url: "/carton-transfer",
+    title: "FL 4",
+    url: "/",
     icon: ArrowRightLeft,
-  },
-  {
-    title: "Opening",
-    url: "/opening",
-    icon: DoorOpen,
-  },
-  {
-    title: "Belts",
-    url: "/belts",
-    icon: Activity,
-  },
-  {
-    title: "Timers",
-    url: "/timers",
-    icon: Timer,
-  },
-  {
-    title: "Outfeed Conveyor",
-    url: "/outfeed-conveyor",
-    icon: Beaker,
   },
 ];
 

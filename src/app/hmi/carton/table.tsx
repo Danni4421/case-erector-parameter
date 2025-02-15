@@ -43,9 +43,23 @@ export function CartonTable({ cartons }: CartonTableProps) {
         {cartons.map((carton) => (
           <TableRow key={carton.id}>
             <TableCell className="font-medium">{carton.description}</TableCell>
-            <TableCell className="text-center">{carton.before}</TableCell>
-            <TableCell className="text-center">{carton.after}</TableCell>
-            <TableCell className="text-center">{carton.created_at}</TableCell>
+            {carton.combined ? (
+              <TableCell className="text-center" colSpan={2}>
+                {carton.combined} (Hz)
+              </TableCell>
+            ) : (
+              <>
+                <TableCell className="text-center">{carton.before}</TableCell>
+                <TableCell className="text-center">{carton.after}</TableCell>
+              </>
+            )}
+            <TableCell className="text-center">
+              {new Date(carton.created_at).toLocaleDateString("en-EN", {
+                day: "numeric",
+                month: "short",
+                year: "numeric",
+              })}
+            </TableCell>
             <TableCell className="text-center">
               <Button variant="outline">
                 <Info />

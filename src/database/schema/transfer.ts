@@ -9,6 +9,7 @@ export const transfer = sqliteTable("transfer", (t) => ({
   before_inactive: t.integer("before_inactive"),
   after_inactive: t.integer("after_inactive"),
   combined_inactive: t.integer("combined_inactive"),
+  custom_unit: t.text("custom_unit"),
   created_at: t.integer("created_at", { mode: "timestamp" }).notNull(),
   updated_at: t.integer("updated_at", { mode: "timestamp" }),
 }));
